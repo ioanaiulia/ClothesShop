@@ -1,0 +1,30 @@
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="main.css">
+        <script src="main.js"></script>
+        <title>Shop It</title>
+    </head>
+    <body onload="loadProducts()">
+        <div class="container container-profile" style="display: none;" id="profile"></div>
+        <div class="container container-products" style="display: none;" id="products"></div>
+        <div class="container container-cart" style="display: none;" id="cart"></div>
+        <div class="container container-search" style="display: none;" id="search"></div>
+
+        
+
+        <div class="container">
+            <div class="container navigation-bar">
+                <div class="name-bar">
+                <img src="../assets/images/name.png" style="display: block; margin: auto; width: 20%;">
+                </div>
+                <button class="btn btn-profile" onclick="openProfile()"> Profile </button>
+                <button class="btn btn-products" onclick="openProducts()"> Products</button>
+                <button class="btn btn-cart" onclick="openCart()">Cart</button>
+                <input type="text" class="search" placeholder="Search...">
+            </div>
+            <div class="container container-display" id="display-container">
+                
+            </div>
+        </div>        
+    </body>
+</html>

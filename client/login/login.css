@@ -1,0 +1,39 @@
+body {
+    background-image: url("../assets/images/navigation-bar-backgr.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.input-form {
+    background-color: rgba(3, 3, 41, 0.2);
+    margin: auto;    
+    border: double;
+    border-radius: 3%;
+    padding: 5%;
+    width: 20%;
+}
+
+.btn {
+    background-color: #f1b308;
+    border-radius: 100%;
+}
+
+.btn-login {
+    padding: 3%;
+}
+
+.btn-create-account {
+    padding: 3%;
+    margin: auto;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.input-text {
+    background-color: rgba(3, 3, 41, 0.2);
+    text-align: center;
+    color: white;
+}

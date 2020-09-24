@@ -1,0 +1,35 @@
+.container {
+    background-color: rgb(226, 231, 255);
+}
+
+.navigation-bar {
+    background-image: url("/assets/images/navigation-bar-backgr.jpg");
+    background-size: cover;
+    padding: 1%;
+}
+
+.btn {
+    background-color: rgb(253, 196, 40);
+    border-radius: 100%;
+    text-size-adjust: auto;
+    -webkit-text-size-adjust: auto;
+    width: 10%;
+    padding: 2%;
+    margin-right: 15%;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.btn-profile {
+    margin-left: 3%;
+}
+
+
+.search {
+    padding: 1%;
+    background-color:  rgb(253, 196, 40);
+    border-radius: 100%;
+    text-align: center;
+}

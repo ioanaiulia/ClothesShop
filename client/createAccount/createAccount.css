@@ -1,0 +1,25 @@
+body {
+    background-image: url("../assets/images/navigation-bar-backgr.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.input-form {
+    clear: both;
+    background-color: rgba(3, 3, 41, 0.2);
+    text-align: center;
+    color: white;
+    margin: auto;    
+    border: double;
+    border-color: black;
+    border-radius: 3%;
+    padding: 5%;
+    width: 25%;
+}
+
+.input-text {
+    background-color: rgba(3, 3, 41, 0.2);
+    text-align: center;
+    color: white;
+}
